@@ -1,3 +1,6 @@
 [*.{kt,kts}]
 # Disables the specific rule that forbids underscores in package names
 ktlint_standard_package-name = disabled
+
+# Disables the max line length rule entirely
+max_line_length = off
